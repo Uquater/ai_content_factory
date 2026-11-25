@@ -1,0 +1,121 @@
+# Demo teknis 2026-11-001: hanya C1, meja/cangkir buatan kode, subtitle, ganti pose.
+# BUKAN pilot final. Tanpa audio (belum ada voice-over / TTS Bahasa Indonesia).
+# Waktu subtitle = ESTIMASI (± 2,2 kata/detik), bukan timing audio nyata.
+#
+# Jalankan dari root repo:
+#   python scripts/render_video.py 04-PRODUCTION/2026-11-001/render/demo-c1.toml
+#
+# Koordinat: piksel kanvas 1080x1920 (titik 0,0 = kiri atas), kecuali kunci berakhiran _src
+# (piksel gambar sumber 1536x2752). Path relatif terhadap root repo.
+
+[output]
+path = "_media/2026-11-001/out/demo_c1.mp4"
+width = 1080
+height = 1920
+fps = 30
+crf = 18
+supersample = 1.25          # panggung digambar 1,25x lalu diperkecil: tetap tajam saat kamera zoom
+label = "DEMO TEKNIS - tanpa audio"
+
+[audio]
+mode = "silent"             # "silent" = trek AAC senyap; "file" = pakai berkas di bawah
+# file = "_media/2026-11-001/audio/vo.wav"
+
+[fonts]
+caption = "scripts/fonts/Poppins-ExtraBold.ttf"   # SIL OFL 1.1, lihat scripts/fonts/OFL-Poppins.txt
+
+[poses.C1_sit]
+image = "_media/2026-11-001/work/C1_sit_key.png"
+
+[poses.C1_reach]
+image = "_media/2026-11-001/work/C1_reach_key.png"
+front_box_src = [0, 1600, 330, 1800]   # tangan terulur: digambar ulang DI ATAS meja dan cangkir
+
+[character]
+scale = 0.70
+anchor_src = [799, 1800]    # pusat torso (x) dan garis depan meja (y) di gambar sumber; sama untuk kedua pose
+anchor = [740, 1400]        # posisi titik itu di kanvas
+
+[set]
+ink = "#2A1E17"
+ink_width = 6
+wall_top = "#EEDDBE"
+wall_bottom = "#D9BD92"
+wall_lower = "#C9A97C"
+rail_y = 1040
+rail_color = "#9C6B43"
+window = [70, 250, 400, 720]
+window_sky_top = "#F3B979"
+window_sky_bottom = "#FCE6C2"
+table_back_y = 1323          # = garis sumber y 1690 (menutup ujung kaos)
+table_front_y = 1400
+table_top_color = "#BD8653"
+table_front_color = "#8E5B34"
+table_plank_y = [1600, 1780]
+
+[cup]
+size = [96, 84]              # lebar, tinggi badan cangkir
+saucer = [140, 22]
+body_color = "#FFFFFF"
+coffee_color = "#4A2A17"
+saucer_color = "#EDEDED"
+shadow_alpha = 70
+
+[captions]
+font_size = 80
+fill = "#FFFFFF"
+stroke = "#141414"
+stroke_width = 8
+max_width = 940
+y_center = 1520              # di bawah tepi meja: tidak menutupi wajah, tangan, atau cangkir
+line_spacing = 1.08
+
+[label_style]
+font_size = 30
+position = [40, 56]
+fill = "#FFFFFF"
+stroke = "#141414"
+stroke_width = 3
+opacity = 0.75
+
+# ---- Shot. camera.zoom = [awal, akhir]; camera.center = titik kanvas yang dibidik.
+# cup.at = titik bawah-tengah cangkir; cup.from/to + move = [detik mulai, detik selesai] di dalam shot.
+
+[[shots]]
+id = "S1"
+line = "L1"
+pose = "C1_sit"
+duration = 5.0
+camera = { zoom = [1.06, 1.12], center = [700, 900] }
+cup = { at = [170, 1375] }
+subtitles = [
+  { text = "Bayangkan kamu", start = 0.2, end = 1.2 },
+  { text = "bisa lihat", start = 1.2, end = 2.1 },
+  { text = "berapa kali orang", start = 2.1, end = 3.4 },
+  { text = "berbohong hari ini.", start = 3.4, end = 4.9 },
+]
+
+[[shots]]
+id = "S2"
+line = "L10"
+pose = "C1_reach"
+duration = 4.2
+camera = { zoom = [1.00, 1.04], center = [520, 960] }
+cup = { from = [170, 1375], to = [85, 1375], move = [0.6, 1.5] }
+subtitles = [
+  { text = "Yang penting,", start = 0.3, end = 1.4 },
+  { text = "dia tahu dia", start = 1.4, end = 2.7 },
+  { text = "nggak sendirian.", start = 2.7, end = 4.0 },
+]
+
+[[shots]]
+id = "S3"
+line = "L11"
+pose = "C1_sit"
+duration = 3.0
+camera = { zoom = [1.16, 1.22], center = [700, 900] }
+cup = { at = [85, 1375] }
+subtitles = [
+  { text = "Kamu pilih", start = 0.2, end = 1.1 },
+  { text = "yang mana?", start = 1.1, end = 2.3 },
+]

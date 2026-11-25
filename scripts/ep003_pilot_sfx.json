@@ -1,0 +1,31 @@
+{
+  "_baca": [
+    "Pilihan SFX pilot 2026-11-003 (versi aktif: v3). Ubah angka variasi (1-4) di 'variasi', lalu jalankan ulang HANYA mix + mux:",
+    "  python scripts/ep003_pilot_audio.py mix2 --version v3 --name <nama_baru>",
+    "  node studio/tools/finish_render.mjs _media/2026-11-003/out/pilot_v3/pilot_2026-11-003_s03-s06_v3.mp4 _media/2026-11-003/out/pilot_v3/<nama_baru>.mp4 _media/2026-11-003/audio/pilot_v3/<nama_baru>_mix.wav",
+    "(gambar diambil dari MP4 v3 yang sudah jadi: hanya stream video yang disalin, audionya diganti mix baru)",
+    "--version wajib diisi (v2 = pilot v2 lama, dengan celah +0,55 s yang ditolak pemilik).",
+    "Gambar tidak perlu dirender ulang: SFX diselaraskan otomatis ke puncak/onset file yang dipilih.",
+    "'level_db' = koreksi level relatif terhadap aturan dasar (0 = aturan dasar, -3 = lebih pelan 3 dB).",
+    "Pilihan variasi saat ini SEMENTARA: dipilih dari pengukuran sinyal, bukan didengar (Claude tidak bisa mendengar)."
+  ],
+  "variasi": {
+    "malam": 3,
+    "langkah": 2,
+    "gerendel": 3,
+    "ketuk": 1,
+    "toa_buka": 4
+  },
+  "level_db": {
+    "malam": 0,
+    "langkah": 0,
+    "gerendel": 0,
+    "ketuk": 0,
+    "toa_buka": 0
+  },
+  "tambahan": {
+    "jangkrik_sintesis_ep1": false,
+    "room_tone_sintesis_ep1": false,
+    "dengung_toa_sintesis_ep1": true
+  }
+}

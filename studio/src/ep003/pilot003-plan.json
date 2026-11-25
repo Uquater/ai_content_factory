@@ -1,0 +1,94 @@
+{
+  "unit": "2026-11-003",
+  "pilot": "S03-S06 (L5-L9)",
+  "timing": "audio",
+  "note": "Line times from the voice-over (silence detection, -45 dB); gaps are editorial. 'pre' = an unvoiced breath before the words (kept in the mix); 'bursts' = speech bursts (pauses >= 0.12 s) for caption timing. scripts/ep003_pilot_audio.py plan.",
+  "lines": [
+    {
+      "id": "L5",
+      "who": "n",
+      "seg": "N02",
+      "text": "Dapur gelap. Kamu tidak bisa melihat gerendelnya.",
+      "start": 0.6,
+      "end": 3.901,
+      "bursts": [
+        [
+          0.6,
+          3.901
+        ]
+      ]
+    },
+    {
+      "id": "L6",
+      "who": "n",
+      "seg": "N02",
+      "text": "Kamu menyalakan senter ponsel dan menutupinya dengan telapak tangan.",
+      "start": 4.177,
+      "end": 7.72,
+      "bursts": [
+        [
+          4.177,
+          7.72
+        ]
+      ]
+    },
+    {
+      "id": "L7",
+      "who": "n",
+      "seg": "N03",
+      "text": "Klik. Pintu belakang terkunci.",
+      "start": 9.977,
+      "end": 12.639,
+      "bursts": [
+        [
+          9.977,
+          10.894
+        ],
+        [
+          11.161,
+          12.639
+        ]
+      ]
+    },
+    {
+      "id": "L8",
+      "who": "toa",
+      "seg": "P01",
+      "text": "“Dapur juga tidak kosong.”",
+      "start": 14.38,
+      "end": 16.332,
+      "pre": 13.289,
+      "bursts": [
+        [
+          14.38,
+          16.332
+        ]
+      ]
+    },
+    {
+      "id": "L9",
+      "who": "adik",
+      "seg": "D02",
+      "text": "“Kak… kaca di atas pintu tadi terang.”",
+      "start": 17.032,
+      "end": 20.115,
+      "bursts": [
+        [
+          17.174,
+          17.415
+        ],
+        [
+          18.024,
+          19.955
+        ]
+      ]
+    }
+  ],
+  "place": {
+    "N02": 0.6,
+    "N03": 9.977,
+    "P01": 13.289,
+    "D02": 17.032
+  },
+  "end": 20.915
+}

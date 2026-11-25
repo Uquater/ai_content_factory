@@ -1,0 +1,56 @@
+{
+  "_note": "Demo teknis 3D 2026-11-001. BUKAN pilot. Tanpa audio: waktu baris = ESTIMASI (~2,2 kata/detik). Ganti dengan timing kata dari voice-over nyata bila sudah ada. Teks = naskah v1.1 tanpa perubahan.",
+  "label": "DEMO TEKNIS 3D - tanpa audio",
+  "end": 12.2,
+  "lines": [
+    {
+      "id": "L1",
+      "text": "Bayangkan kamu bisa lihat berapa kali orang berbohong hari ini.",
+      "start": 0.3,
+      "end": 4.7
+    },
+    {
+      "id": "L10",
+      "text": "Yang penting, dia tahu dia nggak sendirian.",
+      "start": 5.4,
+      "end": 8.6
+    },
+    {
+      "id": "L11",
+      "text": "Kamu pilih yang mana?",
+      "start": 9.5,
+      "end": 11.4
+    }
+  ],
+  "shots": [
+    {
+      "id": "S1",
+      "start": 0.0,
+      "end": 5.0
+    },
+    {
+      "id": "S2",
+      "start": 5.0,
+      "end": 9.2
+    },
+    {
+      "id": "S3",
+      "start": 9.2,
+      "end": 12.2
+    }
+  ],
+  "reach": {
+    "gazeIn": 4.98,
+    "lift": 5.18,
+    "touch": 6.16,
+    "push": 6.36,
+    "stop": 7.42,
+    "release": 7.6,
+    "rest": 8.5,
+    "gazeOut": 7.75,
+    "cupFromX": -0.22,
+    "cupToX": -0.46,
+    "cupZ": 0.25
+  },
+  "_note_reach": "rev1 2026-11-15: reach dipecah per beat (lihat src/c1/reach.ts). Gelas digeser 5 cm lebih jauh dari tepi meja (z 0,20 -> 0,25) agar siku tidak tenggelam ke meja. Teks, shot, durasi sama dengan demo sebelumnya."
+}

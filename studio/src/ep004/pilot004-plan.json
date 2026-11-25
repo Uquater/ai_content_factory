@@ -1,0 +1,77 @@
+{
+ "fps": 30,
+ "blocks": [
+  [
+   0.0,
+   6.8
+  ],
+  [
+   27.4,
+   35.0
+  ]
+ ],
+ "lines": [
+  {
+   "id": "L1",
+   "who": "n",
+   "seg": "N01",
+   "text": "Jam dua pagi.",
+   "start": 3.0,
+   "end": 4.126
+  },
+  {
+   "id": "L2",
+   "who": "n",
+   "seg": "N01",
+   "text": "Pengeras suara kompleks memakai suaramu.",
+   "start": 4.482,
+   "end": 6.663
+  },
+  {
+   "id": "L3",
+   "who": "n",
+   "seg": "N01",
+   "text": "Dan seseorang baru saja mencoba pintu belakangmu.",
+   "start": 6.896,
+   "end": 9.896
+  },
+  {
+   "id": "L7",
+   "who": "adik",
+   "seg": "D01",
+   "text": "“Kak… itu apa yang merah?”",
+   "start": 28.706,
+   "end": 30.969,
+   "bursts": [
+    [
+     28.706,
+     28.926
+    ],
+    [
+     29.479,
+     30.969
+    ]
+   ]
+  }
+ ],
+ "beats": {
+  "knobTurn": 0.25,
+  "knobStrain": 1.0,
+  "boltRattle": 1.33,
+  "knobBack": 1.6,
+  "breath": 2.5,
+  "steps": 5.3,
+  "recapClick": 5.4,
+  "ledT": 27.9,
+  "screenTap": 32.55
+ },
+ "screen": [
+  32.6,
+  33.3
+ ],
+ "vo": {
+  "N01": 3.0,
+  "D01": 28.55
+ },
+ "timing": "VO asli pemilik (N01, D01 take01), 2026-11-20"
+}

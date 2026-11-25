@@ -1,0 +1,48 @@
+{
+  "_note": "Pilot 2026-11-001 'Angka di Atas Kepala Sahabatmu' — ROUGH CUT. Naskah v1.1 (disetujui). Waktu baris = SEMENTARA (estimasi ± 2,2 kata/detik, tanpa audio). Setelah voice-over ada: ganti 'lines[].start/end' dengan timing kata nyata dan geser 'beats'/'shots' mengikuti. Semua waktu dalam detik.",
+  "label": "ROUGH CUT - timing sementara, tanpa audio",
+  "timing": "provisional",
+  "end": 42.4,
+  "lines": [
+    { "id": "L1", "text": "Bayangkan kamu bisa lihat berapa kali orang berbohong hari ini.", "start": 0.3, "end": 4.5 },
+    { "id": "L2", "text": "Sore ini, sahabatmu, Tyo, mendadak ngajak ngopi.", "start": 5.0, "end": 7.5 },
+    { "id": "L3", "text": "Angka di atas kepalanya: nol.", "start": 7.7, "end": 9.0 },
+    { "id": "L4", "text": "Dia bilang, \"Aku baik-baik aja.\"", "start": 9.3, "end": 11.7, "quote": true },
+    { "id": "L5", "text": "Angkanya jadi satu.", "start": 12.2, "end": 13.6 },
+    { "id": "L6", "text": "Ajak dia bicara sekarang, atau beri dia ruang sambil bilang kamu siap mendengar?", "start": 14.6, "end": 20.2 },
+    { "id": "L7", "text": "Lihat kardus di bawah kursinya, dan kartu kantor yang dia sembunyikan.", "start": 23.6, "end": 28.5 },
+    { "id": "L8", "text": "Hari ini, Tyo kehilangan pekerjaannya.", "start": 28.9, "end": 31.0 },
+    { "id": "L9", "text": "Angka itu bukan tanda dia jahat, tapi tanda dia menanggungnya sendirian.", "start": 31.4, "end": 36.2 },
+    { "id": "L10", "text": "Yang penting, dia tahu dia nggak sendirian.", "start": 36.7, "end": 39.4 },
+    { "id": "L11", "text": "Kamu pilih yang mana?", "start": 39.8, "end": 41.2 }
+  ],
+  "shots": [
+    { "id": "S1", "start": 0.0, "end": 4.8, "note": "warung, C1 sendiri, angka melayang, push-in" },
+    { "id": "S2", "start": 4.8, "end": 9.0, "note": "Tyo sudah duduk; kardus; kartu di tangan; angka 0" },
+    { "id": "S3", "start": 9.0, "end": 12.0, "note": "two-shot; senyum dipaksakan; kartu masuk saku" },
+    { "id": "S4", "start": 12.0, "end": 14.5, "note": "close-up Tyo; 0 -> 1" },
+    { "id": "S5", "start": 14.5, "end": 20.5, "note": "two-shot; C1 menatap Tyo; pilihan A/B" },
+    { "id": "S6", "start": 20.5, "end": 23.5, "note": "jeda pilihan 3 s; Tyo melirik ke bawah meja" },
+    { "id": "S7", "start": 23.5, "end": 28.8, "note": "kardus, lalu saku dengan kartu" },
+    { "id": "S8", "start": 28.8, "end": 31.3, "note": "close-up; senyum memudar; warna dingin" },
+    { "id": "S9", "start": 31.3, "end": 36.5, "note": "Tyo menunduk; C1 condong; pull-back" },
+    { "id": "S10", "start": 36.5, "end": 42.4, "note": "C1 menggeser kopi ke Tyo; senyum tipis; pilihan kecil" }
+  ],
+  "beats": {
+    "floatingNumbers": [0.4, 4.6],
+    "numberIn": 8.4,
+    "numberPop": 13.25,
+    "tuck": { "grab": 9.45, "slide": 9.85, "inPocket": 10.55, "handDown": 11.5 },
+    "choices": { "in": 15.2, "timer": [20.5, 23.5], "out": 23.55, "smallIn": 39.8 },
+    "glanceDown": [21.6, 22.9],
+    "spotBox": [24.0, 26.2],
+    "spotPocket": [26.4, 28.6],
+    "smileFade": [29.6, 30.6],
+    "cold": { "in": [28.85, 29.7], "partial": [31.3, 32.5], "out": [36.6, 38.0] },
+    "c1Lean": [32.4, 33.6, 36.0, 36.5],
+    "tyoHeadDown": [31.6, 32.6],
+    "tyoLookCup": [37.4, 39.0],
+    "tyoSmile": 39.5,
+    "reach": { "gazeIn": 36.35, "lift": 36.55, "touch": 37.53, "push": 37.73, "stop": 38.79, "release": 38.97, "rest": 39.87, "gazeOut": 39.12, "cupFromX": -0.22, "cupToX": -0.46, "cupZ": 0.25 }
+  }
+}

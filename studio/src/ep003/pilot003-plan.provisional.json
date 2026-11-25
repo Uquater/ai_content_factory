@@ -1,0 +1,14 @@
+{
+  "unit": "2026-11-003",
+  "pilot": "S03-S06 (L5-L9)",
+  "timing": "provisional",
+  "note": "PROVISIONAL line times (estimated). Replaced by scripts/ep003_pilot_audio.py from the real voice-over; never published with this file.",
+  "lines": [
+    { "id": "L5", "who": "n", "seg": "N02", "text": "Dapur gelap. Kamu tidak bisa melihat gerendelnya.", "start": 0.6, "end": 4.0 },
+    { "id": "L6", "who": "n", "seg": "N02", "text": "Kamu menyalakan senter ponsel dan menutupinya dengan telapak tangan.", "start": 4.5, "end": 8.9 },
+    { "id": "L7", "who": "n", "seg": "N03", "text": "Klik. Pintu belakang terkunci.", "start": 10.15, "end": 11.95 },
+    { "id": "L8", "who": "toa", "seg": "P01", "text": "“Dapur juga tidak kosong.”", "start": 12.6, "end": 14.4 },
+    { "id": "L9", "who": "adik", "seg": "D02", "text": "“Kak… kaca di atas pintu tadi terang.”", "start": 15.1, "end": 17.8 }
+  ],
+  "end": 18.6
+}

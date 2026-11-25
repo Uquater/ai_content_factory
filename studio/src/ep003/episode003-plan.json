@@ -1,0 +1,354 @@
+{
+  "unit": "2026-11-003",
+  "kind": "episode draft S01–S12",
+  "timing": "audio",
+  "note": "Line times from the owner's VO takes (silence detection -45 dB, bursts at pauses >= 0.12 s); gaps are editorial. S03–S06 = pilot v3 shifted by 'off' (whole frames). 'knocks' = the three knock peaks. scripts/ep003_episode_audio.py plan.",
+  "lines": [
+    {
+      "id": "L1",
+      "who": "n",
+      "seg": "N01",
+      "text": "Pengeras suara itu masih memakai suaramu.",
+      "start": 2.4,
+      "end": 4.839,
+      "bursts": [
+        [
+          2.4,
+          4.839
+        ]
+      ]
+    },
+    {
+      "id": "L2",
+      "who": "n",
+      "seg": "N01",
+      "text": "Kamu memilih tetap di dalam.",
+      "start": 5.235,
+      "end": 6.903,
+      "bursts": [
+        [
+          5.235,
+          6.903
+        ]
+      ]
+    },
+    {
+      "id": "L3",
+      "who": "n",
+      "seg": "N01",
+      "text": "Tapi pintu belakang belum dikunci.",
+      "start": 7.248,
+      "end": 9.317,
+      "bursts": [
+        [
+          7.248,
+          9.317
+        ]
+      ]
+    },
+    {
+      "id": "L4",
+      "who": "adik",
+      "seg": "D01",
+      "text": "“Kak, jangan nyalain lampu…”",
+      "start": 9.767,
+      "end": 12.026,
+      "bursts": [
+        [
+          9.767,
+          10.109
+        ],
+        [
+          10.369,
+          12.026
+        ]
+      ]
+    },
+    {
+      "id": "L5",
+      "who": "n",
+      "seg": "N02",
+      "text": "Dapur gelap. Kamu tidak bisa melihat gerendelnya.",
+      "start": 12.7,
+      "end": 16.001,
+      "bursts": [
+        [
+          12.7,
+          16.001
+        ]
+      ]
+    },
+    {
+      "id": "L6",
+      "who": "n",
+      "seg": "N02",
+      "text": "Kamu menyalakan senter ponsel dan menutupinya dengan telapak tangan.",
+      "start": 16.277,
+      "end": 19.82,
+      "bursts": [
+        [
+          16.277,
+          19.82
+        ]
+      ]
+    },
+    {
+      "id": "L7",
+      "who": "n",
+      "seg": "N03",
+      "text": "Klik. Pintu belakang terkunci.",
+      "start": 22.077,
+      "end": 24.739,
+      "bursts": [
+        [
+          22.077,
+          22.994
+        ],
+        [
+          23.261,
+          24.739
+        ]
+      ]
+    },
+    {
+      "id": "L8",
+      "who": "toa",
+      "seg": "P01",
+      "text": "“Dapur juga tidak kosong.”",
+      "start": 26.48,
+      "end": 28.432,
+      "pre": 25.389,
+      "bursts": [
+        [
+          26.48,
+          28.432
+        ]
+      ]
+    },
+    {
+      "id": "L9",
+      "who": "adik",
+      "seg": "D02",
+      "text": "“Kak… kaca di atas pintu tadi terang.”",
+      "start": 29.132,
+      "end": 32.215,
+      "bursts": [
+        [
+          29.274,
+          29.515
+        ],
+        [
+          30.124,
+          32.055
+        ]
+      ]
+    },
+    {
+      "id": "L10",
+      "who": "n",
+      "seg": "N04",
+      "text": "Lubang angin itu menghadap gang.",
+      "start": 33.35,
+      "end": 35.414,
+      "bursts": [
+        [
+          33.35,
+          35.414
+        ]
+      ]
+    },
+    {
+      "id": "L11",
+      "who": "adik",
+      "seg": "D03",
+      "text": "“Dia lihat dari belakang juga?”",
+      "start": 35.864,
+      "end": 37.515,
+      "bursts": [
+        [
+          35.864,
+          37.515
+        ]
+      ]
+    },
+    {
+      "id": "L12",
+      "who": "n",
+      "seg": "N05",
+      "text": "Kamu tidak bisa memastikannya.",
+      "start": 38.015,
+      "end": 39.778,
+      "bursts": [
+        [
+          38.015,
+          39.778
+        ]
+      ]
+    },
+    {
+      "id": "L13",
+      "who": "n",
+      "seg": "N05",
+      "text": "Ponselmu bergetar. Pesan dari petugas keamanan.",
+      "start": 40.223,
+      "end": 43.213,
+      "bursts": [
+        [
+          40.223,
+          41.298
+        ],
+        [
+          41.506,
+          43.213
+        ]
+      ]
+    },
+    {
+      "id": "L14",
+      "who": "msg",
+      "seg": "N06",
+      "text": "“Saya sudah di depan rumah tujuh. Buka pintunya.”",
+      "start": 43.663,
+      "end": 46.593,
+      "bursts": [
+        [
+          43.663,
+          45.537
+        ],
+        [
+          45.805,
+          46.593
+        ]
+      ]
+    },
+    {
+      "id": "L15",
+      "who": "adik",
+      "seg": "D04",
+      "text": "“Itu Pak satpam, kan?”",
+      "start": 46.993,
+      "end": 48.551,
+      "bursts": [
+        [
+          46.993,
+          48.551
+        ]
+      ]
+    },
+    {
+      "id": "L16",
+      "who": "n",
+      "seg": "N07",
+      "text": "Sebelum kamu sempat menjawab, terdengar tiga ketukan.",
+      "start": 50.517,
+      "end": 54.021,
+      "bursts": [
+        [
+          50.517,
+          52.203
+        ],
+        [
+          52.48,
+          54.021
+        ]
+      ]
+    },
+    {
+      "id": "L17",
+      "who": "n",
+      "seg": "N07",
+      "text": "Dari pintu belakang.",
+      "start": 54.464,
+      "end": 55.705,
+      "bursts": [
+        [
+          54.464,
+          55.705
+        ]
+      ]
+    },
+    {
+      "id": "L18",
+      "who": "n",
+      "seg": "N07",
+      "text": "Pintu yang baru saja kamu kunci.",
+      "start": 56.039,
+      "end": 58.641,
+      "bursts": [
+        [
+          56.039,
+          58.641
+        ]
+      ]
+    },
+    {
+      "id": "L19",
+      "who": "n",
+      "seg": "N08",
+      "text": "Kamu akan mengintip ke arah pintu depan untuk memastikan siapa di sana, atau tetap diam bersama adikmu?",
+      "start": 59.841,
+      "end": 65.696,
+      "bursts": [
+        [
+          59.841,
+          63.555
+        ],
+        [
+          63.772,
+          65.696
+        ]
+      ]
+    }
+  ],
+  "place": {
+    "N01": 2.4,
+    "D01": 9.611,
+    "N02": 12.7,
+    "N03": 22.077,
+    "P01": 25.389,
+    "D02": 29.132,
+    "N04": 33.35,
+    "D03": 35.707,
+    "N05": 38.015,
+    "N06": 43.663,
+    "D04": 46.85,
+    "N07": 50.517,
+    "N08": 59.841
+  },
+  "off": 12.1,
+  "offFrames": 363,
+  "pilotFrames": 627,
+  "toaOpen": 24.589,
+  "klik": 22.215,
+  "knocks": [
+    48.667,
+    49.417,
+    50.167
+  ],
+  "cards": 60.141,
+  "bass": [
+    65.946,
+    66.646
+  ],
+  "vib": [
+    39.933,
+    40.933
+  ],
+  "recap": 2.1,
+  "recapClick": 0.7,
+  "recapOut": 1.75,
+  "shots": {
+    "s00": 0,
+    "s01": 2.1,
+    "s02": 7.0,
+    "s03": 12.1,
+    "s07": 33.0,
+    "s08": 39.93333333333333,
+    "s09": 46.0,
+    "s10": 48.666666666666664,
+    "s11": 54.43333333333333,
+    "s12": 59.2
+  },
+  "end": 69.446,
+  "frames": 2083
+}

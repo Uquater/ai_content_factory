@@ -1,0 +1,275 @@
+{
+ "name": "2026-11-002_vo_preview_v2",
+ "version": "v2",
+ "raw_dir": "_media/2026-11-002/audio/vo_raw",
+ "out_dir": "_media/2026-11-002/audio/preview",
+ "fx_dir": "_media/2026-11-002/audio/vo_fx",
+ "detect": {
+  "noise_db": -45,
+  "min_silence_s": 0.08,
+  "min_sentence_gap_s": 0.15
+ },
+ "trim": {
+  "margin_s": 0.12,
+  "_note": "only silence below detect.noise_db beyond margin is removed"
+ },
+ "toa": {
+  "tail_pad_s": 0.6,
+  "chain": "highpass=f=350,lowpass=f=3800,equalizer=f=1800:t=q:w=1:g=5,volume=4dB,asoftclip=type=tanh,volume=-4dB,aecho=0.8:0.6:110|240:0.22|0.12"
+ },
+ "lead_in_s": 0.5,
+ "tail_hold_s": 2.0,
+ "master": {
+  "lufs": -16,
+  "tp": -1.5,
+  "lra": 11
+ },
+ "segments": [
+  {
+   "id": "N01",
+   "file": "2026-11-002_vo_N01_take01.mp3",
+   "lines": [
+    [
+     "L1",
+     "Jam dua pagi, kamu terbangun karena pengeras suara kompleks."
+    ]
+   ],
+   "gap_before_s": 0,
+   "target_lufs": -20.0
+  },
+  {
+   "id": "P01",
+   "file": "2026-11-002_vo_P01_take01.mp3",
+   "lines": [
+    [
+     "L2",
+     "“Seluruh warga diminta keluar rumah.”"
+    ]
+   ],
+   "gap_before_s": 0.7,
+   "target_lufs": -19.0,
+   "toa": true
+  },
+  {
+   "id": "N02",
+   "file": "2026-11-002_vo_N02_take01.mp3",
+   "lines": [
+    [
+     "L3",
+     "Kamu langsung duduk."
+    ],
+    [
+     "L4",
+     "Itu suaramu."
+    ],
+    [
+     "L5",
+     "Intonasinya, cara menarik napas, bahkan suara serak di ujung kalimatnya."
+    ],
+    [
+     "L6",
+     "Dari jendela, kamu melihat tetangga mulai keluar."
+    ],
+    [
+     "L7",
+     "Ada yang masih memakai sarung."
+    ],
+    [
+     "L8",
+     "Ada yang menggendong anaknya."
+    ],
+    [
+     "L9",
+     "Adikmu muncul di pintu kamar sambil membawa jaket."
+    ]
+   ],
+   "gap_before_s": 1.0,
+   "target_lufs": -20.0
+  },
+  {
+   "id": "D01",
+   "file": "2026-11-002_vo_D01_take01.mp3",
+   "lines": [
+    [
+     "L10",
+     "“Kita ikut, kan?”"
+    ]
+   ],
+   "gap_before_s": 0.6,
+   "target_lufs": -21.0
+  },
+  {
+   "id": "N03",
+   "file": "2026-11-002_vo_N03_take01.mp3",
+   "lines": [
+    [
+     "L11",
+     "Kamu mengambil ponsel."
+    ],
+    [
+     "L12",
+     "Grup warga penuh pertanyaan."
+    ],
+    [
+     "L13",
+     "Lalu masuk pesan dari petugas keamanan."
+    ]
+   ],
+   "gap_before_s": 0.8,
+   "target_lufs": -20.0
+  },
+  {
+   "id": "N04",
+   "file": "2026-11-002_vo_N04_take01.mp3",
+   "lines": [
+    [
+     "L14",
+     "“Jangan keluar dulu."
+    ],
+    [
+     "L15",
+     "Ruang pengeras suara terkunci."
+    ],
+    [
+     "L16",
+     "Kuncinya masih saya bawa.”"
+    ]
+   ],
+   "gap_before_s": 0.5,
+   "target_lufs": -20.0
+  },
+  {
+   "id": "N05",
+   "file": "2026-11-002_vo_N05_take01.mp3",
+   "lines": [
+    [
+     "L17",
+     "Kamu menarik adikmu menjauh dari pintu."
+    ],
+    [
+     "L18",
+     "Pengumuman itu berhenti."
+    ],
+    [
+     "L19",
+     "Beberapa detik kemudian, suaramu terdengar lagi."
+    ]
+   ],
+   "gap_before_s": 0.9,
+   "target_lufs": -20.0,
+   "insert_silence_after": "L18",
+   "inserted_gap_s": 2.0
+  },
+  {
+   "id": "P02",
+   "file": "2026-11-002_vo_P02_take01.mp3",
+   "lines": [
+    [
+     "L20",
+     "“Keluarga di rumah nomor tujuh."
+    ],
+    [
+     "L21",
+     "Kami masih menunggu.”"
+    ]
+   ],
+   "gap_before_s": 0.7,
+   "target_lufs": -19.0,
+   "toa": true
+  },
+  {
+   "id": "N06",
+   "file": "2026-11-002_vo_N06_take01.mp3",
+   "lines": [
+    [
+     "L22",
+     "Nomor rumahmu."
+    ],
+    [
+     "L23",
+     "Adikmu menatapmu."
+    ]
+   ],
+   "gap_before_s": 1.3,
+   "target_lufs": -20.0
+  },
+  {
+   "id": "D02",
+   "file": "2026-11-002_vo_D02_take01.mp3",
+   "lines": [
+    [
+     "L24",
+     "“Kok dia tahu?”"
+    ]
+   ],
+   "gap_before_s": 0.6,
+   "target_lufs": -23.0,
+   "source_window_s": [
+    0.0,
+    1.73
+   ],
+   "_note": "v2: raw D02 says the line twice (0.54-1.51 s and 1.95-2.95 s); owner 2026-11-16: keep one. Keep first; second dropped."
+  },
+  {
+   "id": "N07",
+   "file": "2026-11-002_vo_N07_take01.mp3",
+   "lines": [
+    [
+     "L25",
+     "Kamu mematikan lampu ruang tamu."
+    ],
+    [
+     "L26",
+     "Pengeras suara kembali berbunyi."
+    ]
+   ],
+   "gap_before_s": 1.0,
+   "target_lufs": -21.5
+  },
+  {
+   "id": "P03",
+   "file": "2026-11-002_vo_P03_take01.mp3",
+   "lines": [
+    [
+     "L27",
+     "“Mematikan lampu tidak berarti rumahnya kosong.”"
+    ]
+   ],
+   "gap_before_s": 0.9,
+   "target_lufs": -19.0,
+   "toa": true
+  },
+  {
+   "id": "N08",
+   "file": "2026-11-002_vo_N08_take01.mp3",
+   "lines": [
+    [
+     "L28",
+     "Di luar, tetangga yang tadi berjalan mulai berhenti."
+    ],
+    [
+     "L29",
+     "Satu per satu, mereka menoleh ke rumahmu."
+    ],
+    [
+     "L30",
+     "Adikmu menggenggam tanganmu semakin erat."
+    ],
+    [
+     "L31",
+     "Pintu belakang mengarah ke gang sempit."
+    ],
+    [
+     "L32",
+     "Tapi dari tempatmu berdiri, kamu tidak bisa melihat siapa yang ada di sana."
+    ],
+    [
+     "L33",
+     "Kamu akan tetap di dalam dan menunggu petugas keamanan, atau membawa adikmu keluar lewat belakang sebelum orang-orang itu mendekat?"
+    ]
+   ],
+   "gap_before_s": 1.5,
+   "target_lufs": -20.0
+  }
+ ]
+}

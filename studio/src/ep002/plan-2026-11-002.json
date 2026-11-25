@@ -1,0 +1,499 @@
+{
+ "id": "2026-11-002",
+ "note": "built by scripts/ep002_animatic_prep.py from content.md §2/§4 and audio v2 timing; do not hand-edit",
+ "fps": 30,
+ "audioEnd": 98.563,
+ "end": 99.563,
+ "frames": 2987,
+ "cutA07A08": 41.08,
+ "lines": [
+  {
+   "id": "L1",
+   "who": "n",
+   "text": "Jam dua pagi, kamu terbangun karena pengeras suara kompleks.",
+   "start": 0.5,
+   "end": 4.421
+  },
+  {
+   "id": "L2",
+   "who": "toa",
+   "text": "“Seluruh warga diminta keluar rumah.”",
+   "start": 5.121,
+   "end": 7.48
+  },
+  {
+   "id": "L3",
+   "who": "n",
+   "text": "Kamu langsung duduk.",
+   "start": 8.72,
+   "end": 9.785
+  },
+  {
+   "id": "L4",
+   "who": "n",
+   "text": "Itu suaramu.",
+   "start": 10.133,
+   "end": 10.949
+  },
+  {
+   "id": "L5",
+   "who": "n",
+   "text": "Intonasinya, cara menarik napas, bahkan suara serak di ujung kalimatnya.",
+   "start": 11.225,
+   "end": 15.981
+  },
+  {
+   "id": "L6",
+   "who": "n",
+   "text": "Dari jendela, kamu melihat tetangga mulai keluar.",
+   "start": 16.323,
+   "end": 19.174
+  },
+  {
+   "id": "L7",
+   "who": "n",
+   "text": "Ada yang masih memakai sarung.",
+   "start": 19.436,
+   "end": 20.957
+  },
+  {
+   "id": "L8",
+   "who": "n",
+   "text": "Ada yang menggendong anaknya.",
+   "start": 21.16,
+   "end": 22.626
+  },
+  {
+   "id": "L9",
+   "who": "n",
+   "text": "Adikmu muncul di pintu kamar sambil membawa jaket.",
+   "start": 22.888,
+   "end": 25.617
+  },
+  {
+   "id": "L10",
+   "who": "adik",
+   "text": "“Kita ikut, kan?”",
+   "start": 26.482,
+   "end": 27.325
+  },
+  {
+   "id": "L11",
+   "who": "n",
+   "text": "Kamu mengambil ponsel.",
+   "start": 28.125,
+   "end": 29.452
+  },
+  {
+   "id": "L12",
+   "who": "n",
+   "text": "Grup warga penuh pertanyaan.",
+   "start": 29.837,
+   "end": 31.74
+  },
+  {
+   "id": "L13",
+   "who": "n",
+   "text": "Lalu masuk pesan dari petugas keamanan.",
+   "start": 32.09,
+   "end": 34.68
+  },
+  {
+   "id": "L14",
+   "who": "msg",
+   "text": "“Jangan keluar dulu.",
+   "start": 35.18,
+   "end": 36.187
+  },
+  {
+   "id": "L15",
+   "who": "msg",
+   "text": "Ruang pengeras suara terkunci.",
+   "start": 36.591,
+   "end": 38.239
+  },
+  {
+   "id": "L16",
+   "who": "msg",
+   "text": "Kuncinya masih saya bawa.”",
+   "start": 38.531,
+   "end": 40.103
+  },
+  {
+   "id": "L17",
+   "who": "n",
+   "text": "Kamu menarik adikmu menjauh dari pintu.",
+   "start": 41.148,
+   "end": 43.173
+  },
+  {
+   "id": "L18",
+   "who": "n",
+   "text": "Pengumuman itu berhenti.",
+   "start": 43.557,
+   "end": 44.913
+  },
+  {
+   "id": "L19",
+   "who": "n",
+   "text": "Beberapa detik kemudian, suaramu terdengar lagi.",
+   "start": 46.913,
+   "end": 49.611
+  },
+  {
+   "id": "L20",
+   "who": "toa",
+   "text": "“Keluarga di rumah nomor tujuh.",
+   "start": 50.311,
+   "end": 52.938
+  },
+  {
+   "id": "L21",
+   "who": "toa",
+   "text": "Kami masih menunggu.”",
+   "start": 53.506,
+   "end": 55.006
+  },
+  {
+   "id": "L22",
+   "who": "n",
+   "text": "Nomor rumahmu.",
+   "start": 56.306,
+   "end": 58.425
+  },
+  {
+   "id": "L23",
+   "who": "n",
+   "text": "Adikmu menatapmu.",
+   "start": 59.06,
+   "end": 60.418
+  },
+  {
+   "id": "L24",
+   "who": "adik",
+   "text": "“Kok dia tahu?”",
+   "start": 61.018,
+   "end": 62.37
+  },
+  {
+   "id": "L25",
+   "who": "n",
+   "text": "Kamu mematikan lampu ruang tamu.",
+   "start": 63.37,
+   "end": 65.422
+  },
+  {
+   "id": "L26",
+   "who": "n",
+   "text": "Pengeras suara kembali berbunyi.",
+   "start": 65.943,
+   "end": 67.753
+  },
+  {
+   "id": "L27",
+   "who": "toa",
+   "text": "“Mematikan lampu tidak berarti rumahnya kosong.”",
+   "start": 68.653,
+   "end": 72.591
+  },
+  {
+   "id": "L28",
+   "who": "n",
+   "text": "Di luar, tetangga yang tadi berjalan mulai berhenti.",
+   "start": 74.091,
+   "end": 77.349
+  },
+  {
+   "id": "L29",
+   "who": "n",
+   "text": "Satu per satu, mereka menoleh ke rumahmu.",
+   "start": 77.874,
+   "end": 80.515
+  },
+  {
+   "id": "L30",
+   "who": "n",
+   "text": "Adikmu menggenggam tanganmu semakin erat.",
+   "start": 80.982,
+   "end": 83.031
+  },
+  {
+   "id": "L31",
+   "who": "n",
+   "text": "Pintu belakang mengarah ke gang sempit.",
+   "start": 83.457,
+   "end": 85.468
+  },
+  {
+   "id": "L32",
+   "who": "n",
+   "text": "Tapi dari tempatmu berdiri, kamu tidak bisa melihat siapa yang ada di sana.",
+   "start": 85.703,
+   "end": 89.669
+  },
+  {
+   "id": "L33",
+   "who": "n",
+   "text": "Kamu akan tetap di dalam dan menunggu petugas keamanan, atau membawa adikmu keluar lewat belakang sebelum orang-orang itu mendekat?",
+   "start": 90.102,
+   "end": 96.563
+  }
+ ],
+ "scenes": [
+  {
+   "id": "A01",
+   "start": 0.0,
+   "end": 4.77
+  },
+  {
+   "id": "A02",
+   "start": 4.77,
+   "end": 8.1
+  },
+  {
+   "id": "A03",
+   "start": 8.1,
+   "end": 9.96
+  },
+  {
+   "id": "A04",
+   "start": 9.96,
+   "end": 16.15
+  },
+  {
+   "id": "A05",
+   "start": 16.15,
+   "end": 22.76
+  },
+  {
+   "id": "A06",
+   "start": 22.76,
+   "end": 27.73
+  },
+  {
+   "id": "A07",
+   "start": 27.73,
+   "end": 41.08
+  },
+  {
+   "id": "A08",
+   "start": 41.08,
+   "end": 43.37
+  },
+  {
+   "id": "A09",
+   "start": 43.37,
+   "end": 49.96
+  },
+  {
+   "id": "A10",
+   "start": 49.96,
+   "end": 58.74
+  },
+  {
+   "id": "A11",
+   "start": 58.74,
+   "end": 62.87
+  },
+  {
+   "id": "A12",
+   "start": 62.87,
+   "end": 65.68
+  },
+  {
+   "id": "A13",
+   "start": 65.68,
+   "end": 73.34
+  },
+  {
+   "id": "A14",
+   "start": 73.34,
+   "end": 80.75
+  },
+  {
+   "id": "A15",
+   "start": 80.75,
+   "end": 83.24
+  },
+  {
+   "id": "A16",
+   "start": 83.24,
+   "end": 89.89
+  },
+  {
+   "id": "A17",
+   "start": 89.89,
+   "end": 99.563
+  }
+ ],
+ "shots": [
+  {
+   "id": "a01",
+   "scene": "A01",
+   "start": 0.0,
+   "end": 4.77
+  },
+  {
+   "id": "a02",
+   "scene": "A02",
+   "start": 4.77,
+   "end": 8.1
+  },
+  {
+   "id": "a03",
+   "scene": "A03",
+   "start": 8.1,
+   "end": 9.96
+  },
+  {
+   "id": "a04",
+   "scene": "A04",
+   "start": 9.96,
+   "end": 16.15
+  },
+  {
+   "id": "a05a",
+   "scene": "A05",
+   "start": 16.15,
+   "end": 19.3
+  },
+  {
+   "id": "a05b",
+   "scene": "A05",
+   "start": 19.3,
+   "end": 21.06
+  },
+  {
+   "id": "a05c",
+   "scene": "A05",
+   "start": 21.06,
+   "end": 22.76
+  },
+  {
+   "id": "a06a",
+   "scene": "A06",
+   "start": 22.76,
+   "end": 26.05
+  },
+  {
+   "id": "a06b",
+   "scene": "A06",
+   "start": 26.05,
+   "end": 27.73
+  },
+  {
+   "id": "a07a",
+   "scene": "A07",
+   "start": 27.73,
+   "end": 29.64
+  },
+  {
+   "id": "a07b",
+   "scene": "A07",
+   "start": 29.64,
+   "end": 40.25
+  },
+  {
+   "id": "a07c",
+   "scene": "A07",
+   "start": 40.25,
+   "end": 41.08
+  },
+  {
+   "id": "a08",
+   "scene": "A08",
+   "start": 41.08,
+   "end": 43.37
+  },
+  {
+   "id": "a09",
+   "scene": "A09",
+   "start": 43.37,
+   "end": 49.96
+  },
+  {
+   "id": "a10a",
+   "scene": "A10",
+   "start": 49.96,
+   "end": 55.66
+  },
+  {
+   "id": "a10b",
+   "scene": "A10",
+   "start": 55.66,
+   "end": 58.74
+  },
+  {
+   "id": "a11a",
+   "scene": "A11",
+   "start": 58.74,
+   "end": 60.72
+  },
+  {
+   "id": "a11b",
+   "scene": "A11",
+   "start": 60.72,
+   "end": 62.87
+  },
+  {
+   "id": "a12a",
+   "scene": "A12",
+   "start": 62.87,
+   "end": 64.4
+  },
+  {
+   "id": "a12b",
+   "scene": "A12",
+   "start": 64.4,
+   "end": 65.68
+  },
+  {
+   "id": "a13a",
+   "scene": "A13",
+   "start": 65.68,
+   "end": 68.2
+  },
+  {
+   "id": "a13b",
+   "scene": "A13",
+   "start": 68.2,
+   "end": 73.34
+  },
+  {
+   "id": "a14",
+   "scene": "A14",
+   "start": 73.34,
+   "end": 80.75
+  },
+  {
+   "id": "a15",
+   "scene": "A15",
+   "start": 80.75,
+   "end": 83.24
+  },
+  {
+   "id": "a16a",
+   "scene": "A16",
+   "start": 83.24,
+   "end": 85.59
+  },
+  {
+   "id": "a16b",
+   "scene": "A16",
+   "start": 85.59,
+   "end": 89.89
+  },
+  {
+   "id": "a17",
+   "scene": "A17",
+   "start": 89.89,
+   "end": 99.563
+  }
+ ],
+ "beats": {
+  "lightOff": 64.4,
+  "cards": 96.563,
+  "toaStops": 43.557,
+  "repeatUnderL5": 11.3
+ }
+}

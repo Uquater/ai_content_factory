@@ -1,0 +1,78 @@
+.mcp.json
+
+# ============================================================
+# AI Content Factory — .gitignore
+# Sumber: 00-CORE/ARCHITECTURE.md §10 (diterapkan M0-03)
+# ============================================================
+
+# --- Kredensial & konfigurasi lokal (per perangkat) ---
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.p12
+*.pfx
+credentials*
+secrets*
+token*.json
+client_secret*.json
+.claude/settings.local.json
+.obsidian/plugins/*/data.json
+.obsidian/plugins/*/*.log
+.obsidian/workspace*.json
+
+# --- Aset berat (disimpan di _media/, di luar Git — D-009) ---
+_media/*
+!_media/.gitkeep
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.avi
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.aac
+*.psd
+*.safetensors
+*.ckpt
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# --- File sementara & sistem ---
+*.tmp
+*.temp
+*.bak
+*.log
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+.trash/
+
+# --- Proyek 3D Remotion (studio/) ---
+studio/node_modules/
+studio/build/
+studio/out/
+studio/.remotion/
+
+# --- Persiapan repo public ---
+# Plugin Obsidian pihak ketiga (binary/bundle; pasang ulang dari Obsidian)
+.obsidian/plugins/
+# Materi pihak ketiga: hak redistribusi tidak jelas
+refrences/Ai_Carton_step-by-step/
+# Output lokal sementara
+output/
+def/
+__pycache__/
+
+# Ditahan dari rilis public (putuskan manual sebelum dibuka)
+05-DATA/analytics/
+refrences/*.jpg
+DECISION-LOG]]*
